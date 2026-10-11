@@ -1,0 +1,29 @@
+  size <150           github_count=62208    wanted=82   drawn=82
+  size 150..299       github_count=22912    wanted=31   drawn=31
+  size 300..499       github_count=20224    wanted=27   drawn=27
+  size 500..749       github_count=21824    wanted=29   drawn=29
+  size 750..999       github_count=20768    wanted=28   drawn=28
+  size 1000..1499     github_count=38912    wanted=51   drawn=51
+  size 1500..1999     github_count=43456    wanted=57   drawn=57
+  size 2000..2499     github_count=41920    wanted=55   drawn=55
+  size 2500..2999     github_count=46336    wanted=61   drawn=61
+  size 3000..3499     github_count=44288    wanted=59   drawn=59
+  size 3500..3999     github_count=38912    wanted=51   drawn=51
+  size 4000..4999     github_count=70144    wanted=92   drawn=92
+  size 5000..5999     github_count=54272    wanted=72   drawn=72
+  size 6000..6999     github_count=47104    wanted=62   drawn=62
+  size 7000..7999     github_count=38592    wanted=51   drawn=51
+  size 8000..9999     github_count=64000    wanted=84   drawn=84
+  size 10000..11999   github_count=32448    wanted=43   drawn=43
+  size 12000..14999   github_count=46208    wanted=61   drawn=61
+  size 15000..19999   github_count=35072    wanted=46   drawn=46
+  size 20000..29999   github_count=31808    wanted=42   drawn=42
+  size 30000..49999   github_count=19424    wanted=26   drawn=26
+  size >=50000        github_count=14240    wanted=19   drawn=19
+candidates=1129 already downloaded=0 to download=1129
+  downloaded 200
+  downloaded 400
+  downloaded 600
+  downloaded 800
+  downloaded 1000
+DONE files=1129 of 1129 candidates

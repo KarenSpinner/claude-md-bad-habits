@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Raw fetched CLAUDE.md corpus: near GitHub's 100MB file limit and contains
+# third-party content (including credentials other people committed).
+# Reproducible with gh_instructions/fetch_claude_md.py and fetch_10k.py.
+gh_instructions/data/claude_md.jsonl
+gh_instructions/data/c10k_files.jsonl
+
+# Dropped pilots (newsletter reader-harm study, chatbot mirror test): third-party
+# full-text content and embedded login tokens. Kept on disk, never published.
+pilot/
+mirror_test/
+
+# Article draft
+CLAUDE-md-bad-habits-outline.docx
+
+# More raw third-party CLAUDE.md text: the first sample and the coder input packs.
+# Regenerate with gh_instructions/fetch_sample.py and code_habits.py.
+gh_instructions/data/files.jsonl
+gh_instructions/rules_in/

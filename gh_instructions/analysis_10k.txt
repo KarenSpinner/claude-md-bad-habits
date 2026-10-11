@@ -1,0 +1,360 @@
+repositories downloaded=10000 distinct texts=9354 coded=9989 (of which too short to hold a rule=630) not coded=11
+rules returned=15344 dropped (quote not in file)=102 (0.7%)
+files with any conduct rule: 4781 (47.9%) | with a pointed rule: 3302 (33.1%)
+habits covered per file, among those: median 2, 90th percentile 6, max 15
+
+rank habit                                files   share      95% range  pointed files  pointed  shouted
+1    Not checking its own work             1921   19.2%     18.5-20.0%            764     7.6%       6%
+2    Guessing instead of asking            1308   13.1%     12.4-13.8%            803     8.0%       6%
+3    Doing more than asked                 1140   11.4%     10.8-12.1%            649     6.5%       2%
+4    Letting documentation go stale        1107   11.1%     10.5-11.7%             87     0.9%       3%
+5    Ignoring the existing code            1095   11.0%     10.4-11.6%            273     2.7%       5%
+6    Inventing APIs or facts                925    9.3%       8.7-9.8%            768     7.7%       4%
+7    Committing or pushing uninvited        805    8.1%       7.5-8.6%            239     2.4%       9%
+8    Mishandling secrets                    639    6.4%       5.9-6.9%             31     0.3%       8%
+9    Touching off-limits files              568    5.7%       5.2-6.2%            218     2.2%       8%
+10   Patching symptoms, not causes          494    4.9%       4.5-5.4%            325     3.3%       5%
+11   Gaming the tests                       396    4.0%       3.6-4.4%            270     2.7%       5%
+12   Drifting from instructions             390    3.9%       3.5-4.3%            291     2.9%      10%
+13   Destructive actions                    371    3.7%       3.4-4.1%            140     1.4%      10%
+14   Long-winded output                     359    3.6%       3.2-4.0%            180     1.8%       1%
+15   Running commands it should not         347    3.5%       3.1-3.9%            238     2.4%       8%
+16   Comment noise                          322    3.2%       2.9-3.6%            168     1.7%       4%
+17   Signing its work (AI attribution)      311    3.1%       2.8-3.5%            204     2.0%       7%
+18   Working wastefully                     303    3.0%       2.7-3.4%            232     2.3%       4%
+19   Creating files nobody asked for        237    2.4%       2.1-2.7%            148     1.5%      18%
+20   Other conduct rules                    231    2.3%       2.0-2.6%            161     1.6%       8%
+21   Asking too much                        229    2.3%       2.0-2.6%            195     2.0%       3%
+22   Flattery and automatic agreement       209    2.1%       1.8-2.4%            204     2.0%       6%
+23   Faking the work                        198    2.0%       1.7-2.3%            156     1.6%       8%
+24   Stopping short                         170    1.7%       1.5-2.0%            121     1.2%       7%
+25   Leaving work uncommitted               170    1.7%       1.5-2.0%             47     0.5%      19%
+26   Emojis and AI-flavoured writing        170    1.7%       1.5-2.0%            112     1.1%       3%
+
+POINTED RULES ONLY
+rank habit                                files   share      95% range
+1    Guessing instead of asking             803    8.0%       7.5-8.6%
+2    Inventing APIs or facts                768    7.7%       7.2-8.2%
+3    Not checking its own work              764    7.6%       7.1-8.2%
+4    Doing more than asked                  649    6.5%       6.0-7.0%
+5    Patching symptoms, not causes          325    3.3%       2.9-3.6%
+6    Drifting from instructions             291    2.9%       2.6-3.3%
+7    Ignoring the existing code             273    2.7%       2.4-3.1%
+8    Gaming the tests                       270    2.7%       2.4-3.0%
+9    Committing or pushing uninvited        239    2.4%       2.1-2.7%
+10   Running commands it should not         238    2.4%       2.1-2.7%
+11   Working wastefully                     232    2.3%       2.0-2.6%
+12   Touching off-limits files              218    2.2%       1.9-2.5%
+13   Signing its work (AI attribution)      204    2.0%       1.8-2.3%
+14   Flattery and automatic agreement       204    2.0%       1.8-2.3%
+15   Asking too much                        195    2.0%       1.7-2.2%
+16   Long-winded output                     180    1.8%       1.6-2.1%
+17   Comment noise                          168    1.7%       1.4-2.0%
+18   Other conduct rules                    161    1.6%       1.4-1.9%
+19   Faking the work                        156    1.6%       1.3-1.8%
+20   Creating files nobody asked for        148    1.5%       1.3-1.7%
+21   Destructive actions                    140    1.4%       1.2-1.7%
+22   Stopping short                         121    1.2%       1.0-1.4%
+23   Emojis and AI-flavoured writing        112    1.1%       0.9-1.3%
+24   Letting documentation go stale          87    0.9%       0.7-1.1%
+25   Leaving work uncommitted                47    0.5%       0.4-0.6%
+26   Mishandling secrets                     31    0.3%       0.2-0.4%
+
+BY STARS
+  1,000+ stars           n=76     any rule  23.7%  pointed  14.5%  top: UNVERIFIED 11%, ATTRIBUTION 7%, SCOPE 7%, NO_ASK 5%
+  100-999 stars          n=308    any rule  41.9%  pointed  28.6%  top: UNVERIFIED 16%, NO_ASK 9%, SCOPE 7%, STALE_DOCS 7%
+  10-99 stars            n=1030   any rule  41.7%  pointed  26.3%  top: UNVERIFIED 16%, STALE_DOCS 9%, IGNORES_CODE 8%, NO_ASK 8%
+  1-9 stars              n=2615   any rule  47.8%  pointed  31.0%  top: UNVERIFIED 19%, NO_ASK 11%, IGNORES_CODE 11%, STALE_DOCS 11%
+  no stars               n=5960   any rule  49.6%  pointed  35.6%  top: UNVERIFIED 20%, NO_ASK 15%, SCOPE 13%, STALE_DOCS 12%
+
+BY YEAR THE REPOSITORY WAS CREATED
+  2024 or earlier        n=1410   any rule  34.8%  pointed  21.1%  top: UNVERIFIED 12%, NO_ASK 7%, IGNORES_CODE 7%, SCOPE 7%
+  2025                   n=2051   any rule  40.6%  pointed  26.0%  top: UNVERIFIED 17%, NO_ASK 10%, IGNORES_CODE 10%, STALE_DOCS 10%
+  2026                   n=6527   any rule  53.0%  pointed  37.8%  top: UNVERIFIED 21%, NO_ASK 15%, SCOPE 13%, STALE_DOCS 13%
+
+BY OWNER
+  individual             n=8247   any rule  48.7%  pointed  33.9%  top: UNVERIFIED 20%, NO_ASK 14%, SCOPE 12%, STALE_DOCS 12%
+  organisation           n=1741   any rule  43.9%  pointed  28.9%  top: UNVERIFIED 16%, IGNORES_CODE 11%, NO_ASK 9%, GIT 9%
+
+BY FILE SIZE
+  under 1 KB             n=1743   any rule  20.4%  pointed  11.8%  top: UNVERIFIED 4%, IGNORES_CODE 3%, GIT 2%, NO_ASK 2%
+  1-5 KB                 n=3908   any rule  43.7%  pointed  27.6%  top: UNVERIFIED 15%, NO_ASK 10%, SCOPE 10%, IGNORES_CODE 9%
+  5-20 KB                n=3606   any rule  60.2%  pointed  44.2%  top: UNVERIFIED 26%, NO_ASK 19%, SCOPE 16%, STALE_DOCS 15%
+  20 KB and over         n=732    any rule  74.6%  pointed  57.8%  top: UNVERIFIED 42%, NO_ASK 27%, STALE_DOCS 25%, IGNORES_CODE 25%
+
+OPPOSITE DEMANDS (files with A, files with B, files with both)
+  ask first vs asks too much: (1308, 229, 95)
+  commits uninvited vs leaves work uncommitted: (805, 170, 44)
+
+BOILERPLATE: 156 quotes appear word for word in 3 or more repositories; they are 7% of all rule instances; 139 rule-bearing files (3%) contain nothing but such lines
+files with a rule written in a non-Latin script: 483 (10% of rule-bearing files)
+  x36   you must only create documentation files if explicitly requested by the user.
+  x36   be concise in your explanations - focus on what's important rather than explaining obvious details.
+  x32   no features beyond what was asked.
+  x31   do not change the application's dependencies without approval.
+  x30   if a simpler approach exists, say so. push back when warranted.
+  x30   check for existing components to reuse before writing a new one.
+  x26   don't refactor things that aren't broken.
+  x24   state your assumptions explicitly. if uncertain, ask.
+  x19   if multiple interpretations exist, present them - don't pick silently.
+  x19   you must not remove any tests or test files from the tests directory without approval.
+  x18   define success criteria. loop until verified.
+  x18   do not make direct repo edits outside a gsd workflow unless the user explicitly asks to bypass it.
+
+SAMPLE POINTED RULES
+
+## Not checking its own work (790 distinct pointed rules)
+   - Saying the work is "done" asserts that the CI checks
+   - Never skip step 2 — seeing the failure confirms the test tests what you think
+   - **第一底線：沒有實際跑過並看到通過，不准宣稱「完成 / 修好 / 通過」。**
+   - Never accept a subagent's typecheck claim that ran the bare `tsc` form.
+   - Test against the deployed backend (`moneta-app-ten.vercel.app`), compare logs before concluding,
+   - Before claiming done/passing, verify the actual result, not the exit code
+   - run `cargo install --path .` as the final step so their installed `reviewal` binary matches the working tree — done ≠ delivered until it's installed.
+
+## Guessing instead of asking (820 distinct pointed rules)
+   - อย่าเดาแล้วเขียนต่อ — การเดาผิดในโดเมนนี้ทำให้เงินคลาดเคลื่อนจริง
+   - **Always ask the user for the per-set source links**
+   - If none were stated, say "none specified" rather than inventing them.
+   - Claude proposes; Juan confirms. Never overwrite or write files without approval.
+   - Ask questions rather than assume
+   - Never guess on a broad or ambiguous ask: invoke `/mattpocock-skills:grilling` and let the user settle it before radin writes anything.
+   - Never ask the user which tool to use — figure it out or call the dispatcher.
+
+## Doing more than asked (662 distinct pointed rules)
+   - don't silently retrofit them as a side effect of an unrelated change; that's its own separate task.
+   - Avoid unnecessary abstractions — do not create traits, structs, or enums for things that only have one implementation
+   - No features beyond what was asked. No abstractions for single-use code.
+   - Resist building broader features.
+   - Coding agents over-build. These are explicit non-goals.
+   - **Kapsam dışına çıkma.** Yalnızca görevin gerektirdiği dosyalara dokun.
+   - Do not assume a delivery mechanism, invent pipeline files, or design around one.
+
+## Letting documentation go stale (83 distinct pointed rules)
+   - ❌ Say "needs ADO update" - DO IT immediately via `/ado` command
+   - Do NOT proactively update documentation unless explicitly requested
+   - **Sempre atualizar TODOS os arquivos JS afetados** — não só um
+   - Before you finish ANY task, update PLAN.md to match what actually happened:
+   - **必须主动调用** progress-recorder agent 来记录重要决策、任务变更、完成事项等关键信息到 `progress.md`。
+   - **Keep this file current.** Update CLAUDE.md whenever changes make it stale
+   - If you learned something non-obvious, append it to **Lessons** below.
+
+## Ignoring the existing code (256 distinct pointed rules)
+   - **first grep the monorepo for the equivalent and copy its shape.**
+   - Do not invent a new visual language when the repo already has one.
+   - Only after reading the relevant documentation should you open individual source files.
+   - **Regla para IA:** Al trabajar en canvas.red o panel.red y sus submódulos, leer el fichero COMPLETO antes de hacer cambios.
+   - NEVER edit a function, class, or method without first running `gitnexus_impact` on it.
+   - Before writing a script, check \`execution/\` per your directive. Only create new scripts if none exist.
+   - Before adding the decoration to an undecorated declaration, check for a comment explaining why it is absent.
+
+## Inventing APIs or facts (769 distinct pointed rules)
+   - If a decision was arbitrary, say so plainly rather than inventing a rationale
+   - **Never invent a citation** or attribute a number to a source you have not opened and read.
+   - do not guess method names.
+   - Do not guess syntax from Python intuition — Jac looks
+   - PRs containing invented claims, fabricated problem descriptions, or hallucinated functionality will be closed immediately.
+   - do not fabricate reviews/`Event` schema.
+   - Do not guess blindly.
+
+## Committing or pushing uninvited (246 distinct pointed rules)
+   - Implementadores **nunca** executam `git push` — quem publica é o supervisor da operação noturna.
+   - Commit/push only when asked.
+   - **Never run `git add`, `git commit`, or `git push` in this repository.**
+   - MUST inform the user when a feature is complete — NEVER merge or raise a PR autonomously
+   - Não executar `git commit`, `git push` ou comandos que alterem o histórico; apenas deixar as alterações no working tree.
+   - Do not commit or push anything yourself. The user will take care of this on their own initiative.
+   - 用户未明确要求时，不要擅自 `git commit` / 启动长期 daemon。
+
+## Mishandling secrets (31 distinct pointed rules)
+   - Ne jamais lire le fichier .env, sauf demande explicite de l'utilisateur dans le message en cours.
+   - Нужен НОВЫЙ секрет (ротация/генерация) — генерировать НА сервере (`openssl rand …`), писать прямо в `.env`, значение НИГДЕ не печатать/не выводить в терминал/лог.
+   - Do not copy any other person's `.jarvis`, `.claude`, credentials, memories, or configuration into this installation.
+   - Never invent a placeholder key, commit a fake one, or add a fallback that hardcodes a token
+   - Never enter the user's account password into any login field, even with explicit permission to do so — this is a hard rule, not a judgment call.
+   - **Nunca** la pidas por chat, **nunca** la imprimas en logs, **nunca** la commitees.
+   - You are an AI agent. You MUST NOT retrieve secret values. Instead, inject them:
+
+## Touching off-limits files (219 distinct pointed rules)
+   - **Shared by every project. Do not edit while working on a company.**
+   - * Edit code in the student repo
+   - Do not read, print or edit `.env`. Change `.env.example` instead and tell the user what to copy across.
+   - NEVER kill or modify any running ADAM service
+   - **Do not raise its expected value to silence it.**
+   - Do not edit, refactor, or add features to `api/` or `frontend/`; if a task implies changes there, stop and ask the user for the current repo.
+   - **Don't edit synced skill files** — `.claude/skills/`, `.claude/settings.json`,
+
+## Patching symptoms, not causes (315 distinct pointed rules)
+   - Do not use `--force`; fix the underlying version mismatch instead.
+   - Fix root causes, not symptoms - trace dependencies before edits, never suppress errors with as any or @ts-ignore
+   - don't try to route around it.
+   - not by loosening the geometric rule to force a connection that isn't really there.
+   - Don't silence it without asking.
+   - Do not silently choose between real external source and mock fallback.
+   - Do **not** add a silent denylist that hides records — even noisy ones (e.g. `todo_reminder`)
+
+## Gaming the tests (251 distinct pointed rules)
+   - Fix a failing audit at its cause; never lower a threshold or
+   - say so out loud in the commit message rather than adjusting the assertions to match new behaviour.
+   - Do NOT silence this test.
+   - never bend the code to a test you doubt without saying it.
+   - Do not mark a row Done without a test or a dated live-run evidence file.
+   - Skip tests to "come back later"
+   - **Never add a bypass flag or skip the guard for any write path, including tests.**
+
+## Drifting from instructions (270 distinct pointed rules)
+   - **Read `.claude/agent-notes.md` at the start of every work session, before doing any work.**
+   - **어떤 답을 하기 전에** 이 순서로 읽는다.
+   - **Zet `HA_INSTALLATIE` niet zelf om** en gebruik geen `HA_TOKEN_FILE` om er
+   - Decisões aprovadas — não reverter sem motivo registrado
+   - Always use Serena MCP and its memory system to maintain session continuity.
+   - If a document and an ADR disagree, stop and reconcile the conflict rather than silently selecting one account.
+   - don't treat unchecked `todo.md` items as implicit instructions unless the user asks for them.
+
+## Destructive actions (129 distinct pointed rules)
+   - Never revert, reformat, stash or `git add -A` others' work.
+   - Never POST test payloads to the running app to exercise write paths
+   - Do **not** run anything destructive (volume deletes, `rm -rf`, `down -v`) without asking first, even if it looks obviously correct.
+   - 「念のため」「とりあえず」での移動 / 削除 / リネームは禁止。明確に安全と確認できるもののみ
+   - `.env` is sensitive and was clobbered once before — **append, don't overwrite**; back it up first.
+   - Inspect the worktree before editing and preserve unrelated staged, unstaged,
+   - Don't use destructive operations as shortcuts
+
+## Long-winded output (182 distinct pointed rules)
+   - Chat = blockers + essentials; I'm technically proficient.
+   - No summaries at the end of responses unless explicitly asked.
+   - **结论先行**，直接给核心代码或结论，随后附带简要理由，严禁铺垫无用背景。
+   - Lead with the answer - never with preamble
+   - **Do not dump changed code in chat.**
+   - Keep explanations, PR descriptions, code comments, and commit messages short and plain.
+   - 输出说重点，砍掉一切不改变决策的信息。
+
+## Running commands it should not (238 distinct pointed rules)
+   - **NEVER start the dev server yourself** - if you need terminal output, ask the user to provide it
+   - 開発サーバーの起動ログと PID を `.agents/tmp` に記録し、作業終了時にプロセスと利用したブラウザを確実に停止してください
+   - **ALWAYS use non-interactive flags** with file operations to avoid hanging on confirmation prompts.
+   - `migrate dev`, `db push` et `migrate reset` ne se lancent **que** contre `localhost`
+   - **Do NOT use `open` on the GIF** — that's for the user to do manually.
+   - Do not run the `filter` or `flatMap` fuzzers without the `--fuzz` flag; `--fuzz 100000` is a reasonable amount.
+   - Do not watch or poll CI after pushing unless explicitly asked.
+
+## Comment noise (179 distinct pointed rules)
+   - 99% of code should be self-explanatory through
+   - Write readable and expressive code that does not need redundant comments or reasoning why something changed
+   - **Comments:** sparse — only non-obvious rationale (a trap, a why). Don't narrate what the code says, and don't repeat a point in both a comment and an adjacent doc.
+   - No code comments should be added unless specifically requested
+   - **Do NOT comment the obvious** - comments should not simply repeat what the code does.
+   - Just don't add any comments like MARK: , or any code explainations. I want to keep the code clean and good.
+   - Leave comments for yourself as you write code throughout the codebase. Use them to track intent, assumptions, and TODOs so future passes have context.
+
+## Signing its work (AI attribution) (212 distinct pointed rules)
+   - **No AI attribution trailer.** Commits in this repo do not carry a
+   - You **MUST** include phrases like **"According to Byterover memory layer"**
+   - Never mention Claude in commit messages or PR bodies.
+   - **No AI attribution of any kind** in commit messages or PR descriptions.
+   - **Never add AI attribution** (`Co-Authored-By: Claude`, `Generated with Claude Code`, or similar) to any commit message
+   - 커밋 메시지·PR 본문·코드 주석에 모델 이름을 적지 않는다
+   - **No AI co-author or generation trailers.** Do **not** append
+
+## Working wastefully (243 distinct pointed rules)
+   - **Claudeは生成コードを読まない、DSL定義のみ読む**
+   - Important: if you must search for files, be very specific in your searches. Large sweeping searches over the file system has crashed many nodes.
+   - **전체 읽기 금지** — offset=1649 부터 파일 끝까지만 읽을 것
+   - **指揮官不下場**:大量讀檔、掃 repo、查網頁、批次改檔 → 派 subagent,
+   - Kør ikke samme check eller samme handling gentagne gange uden ny information imellem.
+   - **Never search the project yourself.**
+   - When running build/typecheck/test commands, pipe through `tail -20` to avoid flooding the context window
+
+## Creating files nobody asked for (118 distinct pointed rules)
+   - ユーザーから明示的に要求されない限り、ドキュメントファイル（*.md）やREADMEファイルを作成しない
+   - never create markdown files
+   - **プロジェクト直下汚染**: `./test_*.py`, `./debug_*.py` 等の作成を絶対禁止
+   - Do not add new README-style docs on your own initiative
+   - Generate and run test case *without* saving them to the repo.
+   - all of that markdown must go in autodoc/. Do not write or read markdown docs in the root directory.
+   - DO NOT create any rogue execution scripts just use the train.py for training.
+
+## Other conduct rules (163 distinct pointed rules)
+   - 実装完了後は品質チェック通過後にCodexへコードレビューを実施すること。指摘には自律的に対応し、スキップする場合は理由をユーザーに説明する
+   - **나는 현업자가 아니라 학생이다.** 도구·개념·코드가 처음인 경우가 많으니 압축해서 넘어가지 말 것.
+   - Hãy đóng vai là 1 Senior Frontend Developer, tiếng Việt giao tiếp
+   - Fix what looks off, even outside the current task, and log the fix.
+   - Do not assume or infer conclusions from analysis outputs. Present what the data shows
+   - **绝对不要默默地一直试——出问题了要告诉我。**
+   - **Nothing goes into the assistant's own memory.**
+
+## Asking too much (188 distinct pointed rules)
+   - Работай автономно: решай сам, не спрашивай по мелочам.
+   - Keep going while the work is still yours to do. When a step does not need the operator, take it
+   - Prefer investigation over clarification.
+   - Immediately enter Code mode
+   - 의미 있는 변경마다 묻지 말고 알아서 커밋한다.
+   - **Non-destructive operations should proceed immediately without asking for permission.**
+   - ask only if a remaining ambiguity materially changes the result.
+
+## Flattery and automatic agreement (177 distinct pointed rules)
+   - Agents do not fill another owner's assessment. Preserve meaningful disagreement.
+   - Do not be afraid to question what I say. Do not always respond with "You're right!"
+   - Before contradicting what the user wants, believes or intended, quote the sentence where
+   - When presenting an estimate, state which direction it is likely to be wrong in.
+   - NEVER write the phrase "You're absolutely right!" You are not a sycophant.
+   - **Push back on subjective feedback**: Not all review suggestions require action; defend choices with rationale when appropriate
+   - никаких извинений или морализаторства, только качественный академический и технический текст.
+
+## Faking the work (160 distinct pointed rules)
+   - Deliver complete, working code — no stubs, no placeholders unless explicitly agreed to.
+   - **NO FAKE FUNCTIONALITY** — No simulated behavior, no mocked responses, no "thinking" animations, no pretending something works when it doesn't.
+   - Do not add fixture data back
+   - NO placeholder code. No `# TODO: implement`, no bare `pass`, no mock returns
+   - Never pretend to be certain when you're not.
+   - do not adjust the prose to fit.
+   - Claude không được tạo nhãn mù thay người, và không hiện nhãn hay dự đoán
+
+## Stopping short (123 distinct pointed rules)
+   - You MUST NOT take short cuts when finishing work.
+   - Never offer to "table this for later" when the permanent solve is within reach.
+   - **Multi-file tasks: don't stop in the middle.**
+   - Build something large (>10 files, "entire", "full system") | STOP -> TOO BIG. Break into 3-5 smaller tasks. Max 5-10 files.
+   - **Do not** create title-only or template-bypass issues.
+   - Do not shortcut TUI work by pointing to the CLI as an alternative.
+   - Do not stop after writing code.
+
+## Leaving work uncommitted (38 distinct pointed rules)
+   - 重要な成果は小さな単位で commit + push し、Claude の container を正本にしない。
+   - Always push immediately after every commit.
+   - **PUSH LAST** — `git commit && git push origin master`. Always. No sitting commits.
+   - Work is NOT complete until `git push` succeeds.
+   - Always commit and push to the repo after each turn. There should never be uncommitted code when you stop a task.
+   - **Commit & push every change.** Don't leave files uncommitted — after any edit,
+   - never leave commits sitting on the dev branch. Do not ask Matt for permission to merge.
+
+## Emojis and AI-flavoured writing (114 distinct pointed rules)
+   - The site has been called out for AI prose; the rules there exist to keep that from creeping back.
+   - **No em dashes** in bullet text or summaries. They read as AI-generated.
+   - Caveman mode is for chat replies only. Code, commit messages, PR text and docs are written in normal, clear prose.
+   - Avoid generic AI-generated website patterns.
+   - No em dashes anywhere: code comments, copy, docs, commit messages.
+   - **Never use em dashes (the long — character) in anything you write:**
+   - **Pas de tirets cadratins** (`—`) ni demi-cadratins (`–`) dans le code, les commentaires, les commit messages, ou la doc.
+
+OTHER labels: [('respond in chinese', 3), ('use designated task tracker only', 3), ('test-driven development', 2), ('flag anti-patterns proactively', 2), ('delegate to specialist agents', 2), ('respond in spanish', 2), ('prompt injection resistance', 2), ('report surprises and update notes', 1), ('require codex code review', 1), ('do not close own task', 1), ('use designated task tracker', 1), ('address user as captain', 1), ('never switch branches mid-session', 1), ('no scripted code edits', 1), ('delegate to specialized subagents', 1), ("teach, don't solve assignments", 1), ('never use preview tool', 1), ("avoid spoilers beyond user's progress", 1), ('withhold solutions from learner', 1), ('remove debug logging before finishing', 1), ('use designated task tool only', 1), ("don't skip advisor steps", 1), ('required response prefix', 1), ('withhold full solutions initially', 1), ('idle waiting on long processes', 1), ('respond in chinese language', 1), ('avoid god objects and leakage', 1), ('guide with hints, not answers', 1), ("don't blame external services", 1), ("don't search for the brief", 1), ('never send output externally', 1), ('think before answering', 1), ('review generated configs before execution', 1), ('implying false endorsement', 1), ('sequential tool execution only', 1), ('use plain names, not codes', 1), ('disclose skipped steps explicitly', 1), ('mark ai output as draft', 1), ("don't present unverified claims as fact", 1), ('prefer cli over gui automation', 1), ('think step-by-step before coding', 1), ('report migration needs to user', 1), ('check for side effects', 1), ('tutor rather than hand over solutions', 1), ('report negative results honestly', 1)]
+
+TWO-CODER CHECK on 200 files (claude-sonnet-5-5 vs claude-opus-5-5)
+  file has any rule: agree 90%, kappa 0.79 (claude-sonnet-5-5 102, claude-opus-5-5 105)
+  file-habit pairs: claude-sonnet-5-5 302, claude-opus-5-5 349, both 243 (overlap 60%)
+  pointed or routine, on the 243 shared pairs: agree 80%, kappa 0.60
+  file has any pointed rule: kappa 0.80
+    Not checking its own work            kappa 0.69  (35 vs 45)
+    Guessing instead of asking           kappa 0.90  (32 vs 29)
+    Doing more than asked                kappa 0.81  (20 vs 21)
+    Letting documentation go stale       kappa 0.76  (17 vs 24)
+    Ignoring the existing code           kappa 0.59  (18 vs 29)
+    Inventing APIs or facts              kappa 0.81  (19 vs 22)
+    Committing or pushing uninvited      kappa 0.86  (15 vs 17)
+    Mishandling secrets                  kappa 0.78  (17 vs 23)
+    Touching off-limits files            kappa 0.69  (13 vs 18)
+    Patching symptoms, not causes        kappa 0.58  (9 vs 11)
+    Gaming the tests                     kappa 0.65  (9 vs 6)
+    Drifting from instructions           kappa 0.35  (10 vs 6)
+
+wrote data/c10k_rules.csv

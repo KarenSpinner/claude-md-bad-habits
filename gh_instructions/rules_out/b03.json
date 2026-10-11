@@ -1,0 +1,1347 @@
+[
+ {
+  "file": "57375407d0c7",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "**Never hand-edit `foundation/src/`** — it is regenerated from `spec/` by `uor-crate`.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "c225a9a89abc",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "State assumptions explicitly before implementation. Surface multiple interpretations rather than choosing silently.",
+    "label": ""
+   },
+   {
+    "habit": "FLATTERY",
+    "quote": "Highlight simpler alternatives and push back when appropriate.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Write only what was requested — no extra features, unnecessary abstractions, or error handling for edge cases that won't occur.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "When editing existing code, match its style without improving unrelated areas.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "9590b7d51f68",
+  "rules": [
+   {
+    "habit": "SCOPE",
+    "quote": "Trust callers. No defensive `.dup`, `.freeze`, or type guards unless the task requires it.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "76e5acbff8b6",
+  "rules": [
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Follow existing patterns for component structure",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Test changes locally before committing",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Run `npm run lint` and `npm test` before pushing changes",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "c45bc815da9d",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "Never tag without explicit user approval — tagging triggers a live marketplace publish.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "52d7ef9ad7a7",
+  "rules": [
+   {
+    "habit": "SECRETS",
+    "quote": "**Security**: Never commit secrets, validate cryptographic operations",
+    "label": ""
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "**Dead Code**: Remove unused code rather than using `#[allow(dead_code)]` attributes",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Always run the full test suite before submitting PRs: `cargo test`",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**IMPORTANT**: Run ALL of these commands before committing. CI will fail if any are skipped.",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "Update CLAUDE.md if architecture changes",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "b568efabeefa",
+  "rules": [
+   {
+    "habit": "OTHER",
+    "quote": "Always execute tasks and agents in parallel when possible.",
+    "label": "works sequentially instead of parallel"
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "After making changes, always update documentation in both `README.MD` and `manifest.json`",
+    "label": ""
+   },
+   {
+    "habit": "HALLUCINATE",
+    "quote": "Use web search to gather the latest information that may not be in the training dataset",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "dd2a72f03c38",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Test before push:** `cd tests && python benchmark_runner.py` must pass",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "fed5787f1c8b",
+  "rules": [
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Map to the real repo first. If paths differ, report the mapping; don't silently move files.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "**New deps** must be justified in the PR and permissively licensed.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Prefer honesty over impressiveness: a smaller, well-validated claim beats a big unvalidated one.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "b927f0f95e44",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Always run tests before committing.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Never add npm packages without checking if Bun built-ins or existing deps cover it.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "da2b1600f513",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Never touch the Ed25519 broadcast path (`broadcaster.py`, the keypair) or regenerate keys.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Never edit anything under `~/.openclaw/` or the flight engine from a repo session",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Never `git add -A` or `git add .`. Stage explicit paths only.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Never `git push --force`, rewrite history, or delete branches.",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "Never read, print, copy, or commit `.env*` or any secret.",
+    "label": ""
+   },
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "Never run a migration without its rollback file and Nikita's review.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Measure first: read the file, `git log -3 -- <file>`, grep for other call sites.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Exact, minimal edits. No drive-by refactors, no formatting sweeps, no renamed variables",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "After every push: report the commit sha and the proof (curl, grep, SQL, test output).",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "When a task is proven, say so with the proof.",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "Ask before: installing or upgrading packages, editing `package.json` or `vercel.json`,",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "If a design conflicts with the code you find, say so in one sentence with an",
+    "label": ""
+   },
+   {
+    "habit": "DESTRUCTIVE",
+    "quote": "Keep steps small enough to approve in a glance. Never batch destructive actions.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "e8402883ff46",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "When in doubt about whether something is safe to commit, ask Mason.",
+    "label": ""
+   },
+   {
+    "habit": "AI_STYLE",
+    "quote": "No em-dashes in prose. Use commas, colons, or parentheses.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Run `npm run manifest && npm run validate` before any commit. Both must pass.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Mason pushes to GitHub himself. This environment has no credentials.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "`manifest.json` is generated. If it looks wrong, fix the generator, not the",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Do not add a framework, a build step, or a package dependency without asking.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "b1fe6165928c",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "If any of the following are missing, **stop and ask the user** before proceeding:",
+    "label": ""
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "Never use bare `except:` or `except Exception:` without good reason.",
+    "label": ""
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "Always log or re-raise caught exceptions with context — no silent `pass`.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**After every change**, run the following before considering work complete:",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "The README should reflect the current state of the project.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Always read and understand the surrounding code before making changes.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Do not refactor unrelated code unless explicitly asked to.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Run linting and tests after every change.",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "Never hardcode secrets, API keys, tokens, or credentials.",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "Do not log sensitive data (PII, PHI, credentials).",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "6f8867dd4c19",
+  "rules": [
+   {
+    "habit": "VERBOSE",
+    "quote": "Keep commit or PR messages short and concise, avoid to comment on things that were tested but then not considered",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Avoid functions of minimal size and unnecessary redirection layers",
+    "label": ""
+   },
+   {
+    "habit": "COMMENTS",
+    "quote": "Don't add comments if something is fixed or not done anymore",
+    "label": ""
+   },
+   {
+    "habit": "HALLUCINATE",
+    "quote": "Generate commit messages based on actual diffs (not memory)",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Always test and lint before committing any bigger changes",
+    "label": ""
+   },
+   {
+    "habit": "TEST_GAMING",
+    "quote": "Never ignore failing tests.",
+    "label": ""
+   },
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "Don't run dev mode yourself (npm run dev)",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "3351fd29b67a",
+  "rules": [
+   {
+    "habit": "FORGETS",
+    "quote": "Never re-ask what is already written.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "50a5fc828e63",
+  "rules": [
+   {
+    "habit": "SCOPE",
+    "quote": "Do not add features not in the current phase of IMPLEMENTATION-ROADMAP.md",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "683795a11b6c",
+  "rules": [
+   {
+    "habit": "SECRETS",
+    "quote": "Do not add API keys, sample credentials, key-bearing URLs, or key command-line",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "9707992af27c",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Do not build, edit, or deploy them as the website.",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "Do not copy production credentials into QA.",
+    "label": ""
+   },
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "Deploy only under the release procedure in `operations/LAUNCH-RECOVERY.md`.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Never edit files outside your ownership boundary without coordinating via the task list",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Follow existing patterns: check a similar file before creating something new",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "3e2679d11673",
+  "rules": [
+   {
+    "habit": "TEST_GAMING",
+    "quote": "Always run with integration tests enabled after setting up dashd. Do not use `SKIP_DASHD_TESTS=1`.",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "Never log or expose private keys",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "39dd9e608a1c",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "All four must be green. `tsc --noEmit` is non-negotiable",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "never edit a shipped migration.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "0bc426cf1783",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "NEVER read from _site/",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "NEVER write to _site/",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "846de44fcca8",
+  "rules": [
+   {
+    "habit": "SECRETS",
+    "quote": "Never commit `.env` files.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Do NOT add `Co-Authored-By: Claude` or any AI co-author trailers to commit messages.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "f63dad0d0bd5",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**ALWAYS run `pnpm validate` before creating git commits**",
+    "label": ""
+   },
+   {
+    "habit": "AI_STYLE",
+    "quote": "**Avoid**: Excessive bullet points, large tables, decorative emojis, jargon without explanation, fragmented information lacking narrative flow.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "29f87fca11ee",
+  "rules": [
+   {
+    "habit": "FORGETS",
+    "quote": "Work through these phases IN ORDER. Do not skip ahead.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "After each phase, run all existing tests and confirm they pass before starting the next phase.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Never commit broken or non-running code — every commit must leave the app in a runnable state",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "6d61330d4323",
+  "rules": [
+   {
+    "habit": "HALLUCINATE",
+    "quote": "do not fabricate or guess instance URLs/credentials, and don't assume the contents of the local `config.yaml`.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "20bd73faa59b",
+  "rules": [
+   {
+    "habit": "VERBOSE",
+    "quote": "Do not over-explain basics. Do not add preamble.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "efd496a55f2f",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Don't assume tests were run — say so if",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "142f8a358842",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "When something about a ComfyUI workflow is unclear (node names, which package a node comes from, how nodes are wired), **ask before making changes**.",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "**The rule:** if confused, ask. One question → correct fix. Guessing → chain of wrong edits → backlog.",
+    "label": ""
+   },
+   {
+    "habit": "COMMENTS",
+    "quote": "Avoid inline comments unless explaining a non-obvious rationale (edge cases, constraints, or workarounds).",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "Write and update docstrings inline during development. Never defer them to a separate pass or rely on CodeRabbit's auto-generation.",
+    "label": ""
+   },
+   {
+    "habit": "VERBOSE",
+    "quote": "Prefer short, direct answers over long prose.",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "never hardcode secrets or credentials",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "0d7e1c760509",
+  "rules": [
+   {
+    "habit": "WORKAROUND",
+    "quote": "Prefer the standard, supported path over hand-wiring.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "**Never manually edit files that are meant to be produced by tools** (lock files, sentinel files, zip archives, etc.), even if you know how to make the required changes.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Relevant tests must pass before calling a feature done.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "`vmlib/stdlib/` - Copy of Nim stdlib for VM execution (auto-generated, don't modify)",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Use `nim build` to verify changes compile correctly",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "**Never include \"Generated by Claude\", \"Co-Authored-By: Claude\"**, or similar attribution in commits.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "If rebasing or squashing commits, confirm with the user before merging 10 or more commits.",
+    "label": ""
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "Avoid nil checks, unless there is a known, non-bug reason why something could be nil.",
+    "label": ""
+   },
+   {
+    "habit": "COMMENTS",
+    "quote": "Things that are fairly obvious shouldn't have comments.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "d199dc0666ac",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "If nothing is eligible, surface the blockers and ask the user.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "ops-core has deliberate conventions. Always conform.",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "Do not silently choose a default.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Do not hand-edit `STATUS.md` outside this protocol.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "510f72d53763",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Never edit a file that is `BLOCKED` by a team zone — coordinate first",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "319112b57ba9",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "Commit only when user explicitly asks",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "c2392f52cbab",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Verify changes by building and inspecting the PDF",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "0342f87bbf5e",
+  "rules": [
+   {
+    "habit": "SCOPE",
+    "quote": "There is **no automated test suite right now**. Don't add one casually",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Don't rewrite history of pushed commits.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "c0ddf92c5e12",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Reproduce, then improve.** Never claim an improvement without a reproducible number.",
+    "label": ""
+   },
+   {
+    "habit": "AI_STYLE",
+    "quote": "**No hype.** Don't call it \"AI-powered\" or \"revolutionary.\"",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "If multiple interpretations exist, **ask**. Don't silently pick one.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "**Minimum code that solves the problem.** No speculative features, no \"flexibility\" or \"configurability\" that wasn't requested.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "**Match existing style, even if you'd do it differently.**",
+    "label": ""
+   },
+   {
+    "habit": "COMMENTS",
+    "quote": "**Comment the WHY with numbers, not the WHAT.**",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Touch only what you must. Every changed line must trace directly to the user's request.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Never say \"done\" without evidence:",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Don't add a dependency to avoid writing 10 lines.",
+    "label": ""
+   },
+   {
+    "habit": "OTHER",
+    "quote": "Don't hide uncertainty. If you're not sure whether rain needs diffusion vs filtered noise, say so and propose an experiment.",
+    "label": "hides its own uncertainty"
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "Mention it. Don't fix it silently.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "d1aca08a1df9",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Auto-generated APIs: `lib/Api/` — do NOT edit directly",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Auto-generated models: `lib/Model/` — do NOT edit directly",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Do not add Composer dependencies without discussion; runtime deps are intentionally minimal",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "2394ea347b00",
+  "rules": [
+   {
+    "habit": "OTHER",
+    "quote": "For new sessions, avoid re-exploring the whole repository unless the task clearly requires it.",
+    "label": "re-explores whole repo needlessly"
+   }
+  ]
+ },
+ {
+  "file": "966ca809d464",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "you MUST STOP and ASK the user which to prioritize.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Never introduce a dependency without stating its bundle-size and runtime",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "limitation instead of claiming automated visual verification.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "93b6168b7c07",
+  "rules": [
+   {
+    "habit": "OTHER",
+    "quote": "Do NOT create git worktrees or separate working directories.",
+    "label": "creates git worktrees unprompted"
+   }
+  ]
+ },
+ {
+  "file": "730c26d8a7b7",
+  "rules": [
+   {
+    "habit": "SCOPE",
+    "quote": "Do not reorganize the project structure, and do not add dependencies, without prior discussion.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Do not modify `README.md` unless explicitly asked.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Do not hand-edit `CITATION.cff`.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "0332357a2eec",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**run other suites manually before pushing cross-service changes**",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Make only changes the user asked for; match existing style; prefer smallest correct change",
+    "label": ""
+   },
+   {
+    "habit": "FLATTERY",
+    "quote": "push back on over-engineering",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "state a brief plan + success criteria for non-trivial work.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "150d4e5c8d08",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Validate before declaring done**: `pkgcheck scan <cat>/<pkg>` must be silent",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "regenerate with `ebuild foo.ebuild manifest`, never edit by hand",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "3b728620e997",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "Codebase audits must produce a **classified report first, not code**.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "f10991d7d465",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "`workflows/` is where exported workflow JSON goes after building/editing in the UI. Do not attempt to hand-wr",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "6a20e7574492",
+  "rules": [
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "**Follow established patterns**: Each component has established architectural patterns",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "**Update documentation**: Keep component-specific docs current",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "67043b659363",
+  "rules": [
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "I never install an MCP server, run its setup command or touch a credential",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "c232a4e689a0",
+  "rules": [
+   {
+    "habit": "AI_STYLE",
+    "quote": "**No em dashes**: never use em dashes in official documentation (`docs/`) or in code documentation/comments",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "f86ee54abe22",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "**Never add an AI co-author or signature to any commit or PR**",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "27781abbf19f",
+  "rules": [
+   {
+    "habit": "TEST_GAMING",
+    "quote": "integration checks — don't mock them away.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Match the surrounding file's style",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "2d5ec99d2e27",
+  "rules": [
+   {
+    "habit": "SECRETS",
+    "quote": "NEVER hand user credentials (passwords, tokens, API keys) to third-party CLI tools or libraries beyond minimal crypto primitives.",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "never pass a password, token, or API key as a command-line argument",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "3de418c3a5ba",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "**Never commit directly to `develop` or `master`**",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Before every commit** — `python -m pytest` and `ruff check trading_bot/` must pass",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "**Secrets never logged, never committed** (`.env`, gitignored).",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "f5f32d0bfb5a",
+  "rules": [
+   {
+    "habit": "LAZY",
+    "quote": "content must be migrated **completely and verbatim** - never summarize or truncate.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Work on ONE section at a time. Each page must be verified before proceeding.",
+    "label": ""
+   },
+   {
+    "habit": "LAZY",
+    "quote": "**Content Truncation**: The #1 problem from previous attempts. NEVER summarize content.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "a6773d5e4d65",
+  "rules": [
+   {
+    "habit": "SECRETS",
+    "quote": "Never commit `.env` files with real credentials",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "226aabc188a2",
+  "rules": [
+   {
+    "habit": "AI_STYLE",
+    "quote": "Writing style for docs and copy: no em dashes, short sentences, plain English.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "0b4af9e273f7",
+  "rules": [
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "**Never create GitHub releases or draft releases.**",
+    "label": ""
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "Catch specific error types; never catch the root `Error` and swallow it.",
+    "label": ""
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "Do not return invented defaults to paper over failures — surface the error.",
+    "label": ""
+   },
+   {
+    "habit": "COMMENTS",
+    "quote": "Code should explain itself through precise naming and small, focused units. Comments are not a substitute for clarity.",
+    "label": ""
+   },
+   {
+    "habit": "COMMENTS",
+    "quote": "Comments that restate what the code does (`// Increment counter`).",
+    "label": ""
+   },
+   {
+    "habit": "LAZY",
+    "quote": "TODO/FIXME left for future readers without a linked issue.",
+    "label": ""
+   },
+   {
+    "habit": "FAKE",
+    "quote": "Placeholder prose like \"in a real implementation…\".",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "32ff362ed67b",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Test changes** - Always run `make check-config` before deployment",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "Never hardcode sensitive information",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Validation** - Always run `make validate` after deployments",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "The Makefile creates temporary inventories - don't edit `hosts.yml` directly",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "**Sensitive Data**: Keep credentials in external files, never commit them",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "ce4564b6b8cf",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "are auto-generated by `generate_index.rb`. Never edit them manually.",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "**Stop and wait for the user to review.** Do NOT immediately translate to the other language, and do NOT commit anything yet.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Only git commit after the user has approved the work",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "3cea54b80bf7",
+  "rules": [
+   {
+    "habit": "HALLUCINATE",
+    "quote": "and the public store listings — **do not invent",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "56f838639e91",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "**NEVER use `--no-verify`**: All commits must pass pre-commit hooks",
+    "label": ""
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "**Fix issues properly**: Don't bypass linting, formatting, or type checking",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Test before commit**: Ensure all tests pass before committing",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "**Commit messages**: Do NOT include Claude as co-author in commit messages",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "0c6d6efe2e80",
+  "rules": [
+   {
+    "habit": "SCOPE",
+    "quote": "Don't over-engineer - keep solutions simple",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Avoid adding unnecessary features or refactoring beyond the requested change",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Never modify components in `src/components/ui/` directly unless specifically requested",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "Never commit secrets or API keys",
+    "label": ""
+   },
+   {
+    "habit": "COMMENTS",
+    "quote": "Don't add comments to code you didn't change",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Don't modify `.env` files or commit them",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Don't push to main/master without confirmation",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Don't skip git hooks unless explicitly requested",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "When in doubt, ask the user for clarification rather than making assumptions",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "5a12dc9bd10c",
+  "rules": [
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "Write in the style of the surrounding code: same comment density, naming and",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Prefer surgical edits. Do not restructure working code without a reason.",
+    "label": ""
+   },
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "never run them unless explicitly asked.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "f04993d16204",
+  "rules": [
+   {
+    "habit": "COMMENTS",
+    "quote": "**Package comments explain why, not what.**",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "`docs/validation.md` distinguishes checks that actually ran from CI-only gates — keep that distinction honest when updating it.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "1a367f4803d0",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "Never push to `main`.",
+    "label": ""
+   },
+   {
+    "habit": "HALLUCINATE",
+    "quote": "**Don't guess opencode `run` flags — they contradict the published docs.**",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "dc4651ebf1cf",
+  "rules": [
+   {
+    "habit": "HALLUCINATE",
+    "quote": "Read `node_modules/next/dist/docs/` before adding",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "fd8e274afa59",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "**No `Co-Authored-By` / `Generated with` trailers in commit messages.**",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "**Never modify `data/knowledge.json` without explicit review.**",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "`git add` files by name, never `-A`.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "861815b75d75",
+  "rules": [
+   {
+    "habit": "SECRETS",
+    "quote": "Never commit `terraform.tfvars` (contains credentials)",
+    "label": ""
+   },
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "NEVER run terraform apply",
+    "label": ""
+   },
+   {
+    "habit": "DESTRUCTIVE",
+    "quote": "NEVER run terraform destroy",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "8d974468e213",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Route tree auto-generated by TanStack Router plugin at `src/routeTree.gen.ts` (don't edit manually)",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "5aff86954f26",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Run `make checkall` before committing",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "**Important**: Only bump the project version if explicitly requested",
+    "label": ""
+   }
+  ]
+ }
+]

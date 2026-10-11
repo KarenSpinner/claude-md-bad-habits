@@ -1,0 +1,169 @@
+  size <11            github_count=8336    wanted=114  drawn=114
+  size 11..12         github_count=30336   wanted=414  drawn=414
+  size 13..39         github_count=6576    wanted=90   drawn=90
+  size 40..55         github_count=4544    wanted=62   drawn=62
+  size 56..68         github_count=1832    wanted=25   drawn=25
+  size 69..76         github_count=1148    wanted=16   drawn=16
+  size 77..89         github_count=1828    wanted=25   drawn=25
+  size 90..103        github_count=2184    wanted=30   drawn=30
+  size 104..123       github_count=2776    wanted=38   drawn=38
+  size 124..157       github_count=5784    wanted=79   drawn=79
+  size 158..196       github_count=9712    wanted=133  drawn=133
+  size 197..227       github_count=3704    wanted=51   drawn=51
+  size 228..260       github_count=3768    wanted=52   drawn=52
+  size 261..304       github_count=4048    wanted=56   drawn=56
+  size 305..334       github_count=4144    wanted=57   drawn=57
+  size 335..370       github_count=3984    wanted=55   drawn=55
+  size 371..415       github_count=4600    wanted=63   drawn=63
+  size 416..562       github_count=13504   wanted=185  drawn=185
+  size 563..640       github_count=8048    wanted=110  drawn=110
+  size 641..687       github_count=0       wanted=0    drawn=0
+  size 688..737       github_count=4032    wanted=55   drawn=55
+  size 738..778       github_count=3536    wanted=49   drawn=49
+  size 779..832       github_count=4176    wanted=57   drawn=57
+  size 833..943       github_count=10032   wanted=137  drawn=137
+  size 944..991       github_count=4112    wanted=57   drawn=57
+  size 992..1065      github_count=6272    wanted=86   drawn=86
+  size 1066..1113     github_count=4240    wanted=58   drawn=58
+  size 1114..1193     github_count=7296    wanted=100  drawn=100
+  size 1194..1313     github_count=9264    wanted=127  drawn=127
+  size 1314..1425     github_count=8592    wanted=118  drawn=118
+  size 1426..1471     github_count=4288    wanted=59   drawn=59
+  size 1472..1508     github_count=2964    wanted=41   drawn=41
+  size 1509..1576     github_count=5904    wanted=81   drawn=81
+  size 1577..1650     github_count=5888    wanted=81   drawn=81
+  size 1651..1684     github_count=3104    wanted=43   drawn=43
+  size 1685..1765     github_count=6080    wanted=83   drawn=83
+  size 1766..1788     github_count=1896    wanted=26   drawn=26
+  size 1789..1894     github_count=9600    wanted=131  drawn=131
+  size 1895..1949     github_count=5544    wanted=76   drawn=76
+  size 1950..2019     github_count=6160    wanted=84   drawn=84
+  size 2020..2076     github_count=4208    wanted=58   drawn=58
+  size 2077..2151     github_count=6800    wanted=93   drawn=93
+  size 2152..2221     github_count=6456    wanted=89   drawn=89
+  size 2222..2287     github_count=6144    wanted=84   drawn=84
+  size 2288..2363     github_count=6272    wanted=86   drawn=86
+  size 2364..2440     github_count=5632    wanted=77   drawn=77
+  size 2441..2498     github_count=5600    wanted=77   drawn=77
+  size 2499..2567     github_count=5808    wanted=80   drawn=80
+  size 2568..2630     github_count=6144    wanted=84   drawn=84
+  size 2631..2680     github_count=5216    wanted=72   drawn=72
+  size 2681..2742     github_count=5624    wanted=77   drawn=77
+  size 2743..2775     github_count=2824    wanted=39   drawn=39
+  size 2776..2822     github_count=4288    wanted=59   drawn=59
+  size 2823..2897     github_count=6544    wanted=90   drawn=90
+  size 2898..2984     github_count=8624    wanted=118  drawn=118
+  size 2985..3048     github_count=5784    wanted=79   drawn=79
+  size 3049..3102     github_count=4344    wanted=60   drawn=60
+  size 3103..3154     github_count=4720    wanted=65   drawn=65
+  size 3155..3261     github_count=9600    wanted=131  drawn=131
+  size 3262..3330     github_count=5968    wanted=82   drawn=82
+  size 3331..3369     github_count=3840    wanted=53   drawn=53
+  size 3370..3436     github_count=5808    wanted=80   drawn=80
+  size 3437..3497     github_count=4832    wanted=66   drawn=66
+  size 3498..3549     github_count=4032    wanted=55   drawn=55
+  size 3550..3591     github_count=4184    wanted=58   drawn=58
+  size 3592..3652     github_count=5024    wanted=69   drawn=69
+  size 3653..3787     github_count=13152   wanted=180  drawn=180
+  size 3788..3843     github_count=4240    wanted=58   drawn=58
+  size 3844..3923     github_count=6368    wanted=87   drawn=87
+  size 3924..3994     github_count=4656    wanted=64   drawn=64
+  size 3995..4037     github_count=3208    wanted=44   drawn=44
+  size 4038..4121     github_count=5808    wanted=80   drawn=80
+  size 4122..4216     github_count=6656    wanted=91   drawn=91
+  size 4217..4269     github_count=3680    wanted=51   drawn=51
+  size 4270..4325     github_count=3888    wanted=54   drawn=54
+  size 4326..4419     github_count=7520    wanted=103  drawn=103
+  size 4420..4495     github_count=5696    wanted=78   drawn=78
+  size 4496..4591     github_count=5744    wanted=79   drawn=79
+  size 4592..4658     github_count=4240    wanted=58   drawn=58
+  size 4659..4775     github_count=8000    wanted=110  drawn=110
+  size 4776..4835     github_count=3448    wanted=48   drawn=48
+  size 4836..4967     github_count=8672    wanted=119  drawn=119
+  size 4968..5038     github_count=4112    wanted=57   drawn=57
+  size 5039..5176     github_count=8672    wanted=119  drawn=119
+  size 5177..5235     github_count=3440    wanted=47   drawn=47
+  size 5236..5352     github_count=5568    wanted=76   drawn=76
+  size 5353..5439     github_count=5056    wanted=69   drawn=69
+  size 5440..5628     github_count=11296   wanted=155  drawn=155
+  size 5629..5706     github_count=4552    wanted=63   drawn=63
+  size 5707..5778     github_count=3304    wanted=46   drawn=46
+  size 5779..5863     github_count=4360    wanted=60   drawn=60
+  size 5864..5987     github_count=5280    wanted=72   drawn=72
+  size 5988..6076     github_count=5368    wanted=74   drawn=74
+  size 6077..6150     github_count=3936    wanted=54   drawn=54
+  size 6151..6288     github_count=7344    wanted=101  drawn=101
+  size 6289..6392     github_count=4320    wanted=59   drawn=59
+  size 6393..6573     github_count=8704    wanted=119  drawn=119
+  size 6574..6686     github_count=5008    wanted=69   drawn=69
+  size 6687..6855     github_count=6448    wanted=88   drawn=88
+  size 6856..6958     github_count=4096    wanted=56   drawn=56
+  size 6959..7188     github_count=8736    wanted=120  drawn=120
+  size 7189..7256     github_count=2408    wanted=33   drawn=33
+  size 7257..7463     github_count=7616    wanted=104  drawn=104
+  size 7464..7547     github_count=2984    wanted=41   drawn=41
+  size 7548..7688     github_count=4880    wanted=67   drawn=67
+  size 7689..7846     github_count=5816    wanted=80   drawn=80
+  size 7847..8005     github_count=7008    wanted=96   drawn=96
+  size 8006..8156     github_count=4320    wanted=59   drawn=59
+  size 8157..8344     github_count=6016    wanted=83   drawn=83
+  size 8345..8477     github_count=3816    wanted=53   drawn=53
+  size 8478..8734     github_count=7712    wanted=106  drawn=106
+  size 8735..8927     github_count=5664    wanted=78   drawn=78
+  size 8928..9053     github_count=3776    wanted=52   drawn=52
+  size 9054..9179     github_count=3296    wanted=45   drawn=45
+  size 9180..9241     github_count=1590    wanted=22   drawn=22
+  size 9242..9468     github_count=6592    wanted=90   drawn=90
+  size 9469..9704     github_count=6272    wanted=86   drawn=86
+  size 9705..9996     github_count=9424    wanted=129  drawn=129
+  size 9997..10138    github_count=3072    wanted=42   drawn=42
+  size 10139..10536   github_count=8288    wanted=114  drawn=114
+  size 10537..10941   github_count=8432    wanted=115  drawn=115
+  size 10942..11222   github_count=4240    wanted=58   drawn=58
+  size 11223..11458   github_count=4472    wanted=61   drawn=61
+  size 11459..12084   github_count=11088   wanted=152  drawn=152
+  size 12085..12237   github_count=2172    wanted=30   drawn=30
+  size 12238..12614   github_count=5376    wanted=74   drawn=74
+  size 12615..12939   github_count=4192    wanted=58   drawn=58
+  size 12940..13344   github_count=5232    wanted=72   drawn=72
+  size 13345..13632   github_count=3360    wanted=46   drawn=46
+  size 13633..14017   github_count=4176    wanted=57   drawn=57
+  size 14018..14471   github_count=5232    wanted=72   drawn=72
+  size 14472..15035   github_count=5336    wanted=73   drawn=73
+  size 15036..15603   github_count=4736    wanted=65   drawn=65
+  size 15604..16211   github_count=4288    wanted=59   drawn=59
+  size 16212..17327   github_count=9488    wanted=130  drawn=130
+  size 17328..17909   github_count=4496    wanted=62   drawn=62
+  size 17910..18566   github_count=4232    wanted=58   drawn=58
+  size 18567..19575   github_count=5136    wanted=71   drawn=71
+  size 19576..21020   github_count=7008    wanted=96   drawn=96
+  size 21021..22536   github_count=7232    wanted=99   drawn=99
+  size 22537..24597   github_count=6448    wanted=88   drawn=88
+  size 24598..26124   github_count=4232    wanted=58   drawn=58
+  size 26125..28093   github_count=4576    wanted=63   drawn=63
+  size 28094..29826   github_count=3600    wanted=50   drawn=50
+  size 29827..31579   github_count=2512    wanted=35   drawn=35
+  size 31580..34866   github_count=4496    wanted=62   drawn=62
+  size 34867..43016   github_count=7232    wanted=99   drawn=99
+  size 43017..54677   github_count=6320    wanted=87   drawn=87
+  size 54678..68142   github_count=3352    wanted=46   drawn=46
+  size >=68143        github_count=7456    wanted=102  drawn=102
+candidates=11571 already downloaded=0 to download=11571
+  downloaded 1000
+  downloaded 2000
+  downloaded 3000
+  downloaded 4000
+  downloaded 5000
+  downloaded 6000
+  downloaded 7000
+  downloaded 8000
+  downloaded 9000
+  downloaded 10000
+  downloaded 11000
+  repository facts 50/11519
+  repository facts 2050/11519
+  repository facts 4050/11519
+  repository facts 6050/11519
+  repository facts 8050/11519
+  repository facts 10050/11519
+DONE files=11519 of 11571 candidates; repository facts for 11518

@@ -1,0 +1,73 @@
+RUBRIC: bad habits that CLAUDE.md files write rules against (v1)
+
+A CLAUDE.md file is a set of standing instructions a developer leaves in a code repository
+for an AI coding agent. You will read lines from many such files. Your job is to find the
+lines that are rules about the agent's own conduct, and say which bad habit each one guards
+against.
+
+WHAT YOU ARE READING
+- A block starts with "=== FILE <id>". Everything until the next "=== FILE" belongs to it.
+- In the batch files, each line looks like "[Section heading] text of the line". The lines
+  were pre-selected from the file, so they are not continuous prose. The bracketed heading
+  is context only. Never quote from inside the brackets.
+
+WHAT COUNTS
+Count a line only if it tells the agent how to behave, decide or communicate, in a way that
+would make sense in almost any project. The rule exists because an agent tends to do
+something unwanted.
+
+Do NOT count project facts or conventions, even when they say "never" or "always": the
+tech stack, naming, formatting, architecture, where files live, which package manager or
+command to use, domain rules of the product.
+
+  "Never commit unless I ask you to."                  count   (GIT)
+  "Run the tests before telling me it works."          count   (UNVERIFIED)
+  "Don't add features I didn't ask for."               count   (SCOPE)
+  "Always use pnpm, never npm."                        do not count (project convention)
+  "Never use default exports."                         do not count (code style)
+  "Tests live in /tests and use Vitest."               do not count (project fact)
+  "Never call the payments API from the client."       do not count (architecture)
+
+When a line could be either, do not count it.
+
+HABIT CODES
+  FAKE          fakes the work: mocks, stubs, placeholders, hardcoded or simulated results in place of a real implementation
+  UNVERIFIED    claims success or completion without running or checking; does not test its own work
+  SCOPE         does more than asked: extra features, unrequested refactors, over-engineering, needless abstraction
+  EXTRA_FILES   creates files nobody asked for: docs, READMEs, summaries, scripts, backups
+  TEST_GAMING   skips, disables, deletes or weakens tests, or edits tests, to get a pass
+  GIT           commits, pushes, force-pushes, bypasses hooks or touches protected branches without being told; adds AI attribution or co-author lines to commits
+  DESTRUCTIVE   deletes or overwrites files or data, resets, drops, runs irreversible commands
+  NO_ASK        guesses or assumes instead of asking; acts without approval or without a plan
+  VERBOSE       long-winded output: preamble, recaps, over-explaining
+  FLATTERY      flattery, automatic agreement, needless apology; fails to push back or give an honest assessment
+  COMMENTS      comment noise: obvious or redundant code comments, narrating changes in comments, or deleting existing comments
+  IGNORES_CODE  does not read existing code first; reinvents what exists; ignores established patterns; adds dependencies unprompted
+  SECRETS       exposes, logs, commits or hardcodes credentials; reads secret files
+  WORKAROUND    patches symptoms: suppresses errors, swallows exceptions, disables linters or type checks, adds hacks or silent fallbacks in place of fixing the cause
+  AI_STYLE      emojis or AI-flavoured writing in code, commits or docs
+  HALLUCINATE   invents APIs, libraries, paths or facts; does not check documentation
+  OFF_LIMITS    edits things it was told not to touch: generated files, migrations, config, named directories
+  RUNS_THINGS   runs commands it should not: servers, deploys, installs, long or costly jobs, production access
+  FORGETS       loses track: ignores earlier instructions, lets notes, docs or the todo list go stale, drifts from the plan
+  LAZY          stops short: partial implementations, truncated code, leftover TODOs, gives up early
+  OTHER         a conduct rule that fits none of the above; put a 3 to 6 word name for the habit in "label"
+
+Pick the single best code for each rule. Use OTHER sparingly, and only for conduct rules.
+
+QUOTES
+- Copy the rule character for character from one line of the file: one contiguous span,
+  15 to 240 characters. A script checks every quote against the source and discards any
+  rule whose quote is not found. Do not paraphrase, fix typos or change punctuation.
+- Record at most 2 rules per habit code per file: the two clearest.
+
+OUTPUT
+Write one JSON array to the output path you were given. Include only files that have at
+least one rule. Exactly this shape:
+
+[
+  {"file": "a1b2c3d4", "rules": [
+      {"habit": "GIT", "quote": "Never commit unless I ask you to.", "label": ""},
+      {"habit": "OTHER", "quote": "verbatim span", "label": "ignores time zones"}
+  ]}
+]

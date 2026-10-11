@@ -1,0 +1,13 @@
+  msgbatch_01GeiR1jZwRqim2uCXPqEpou in_progress processing=250 done=0
+  msgbatch_01GeiR1jZwRqim2uCXPqEpou in_progress processing=250 done=0
+  msgbatch_01GeiR1jZwRqim2uCXPqEpou in_progress processing=250 done=0
+  msgbatch_01GeiR1jZwRqim2uCXPqEpou in_progress processing=250 done=0
+  msgbatch_01GeiR1jZwRqim2uCXPqEpou in_progress processing=250 done=0
+collected msgbatch_01GeiR1jZwRqim2uCXPqEpou model=claude-sonnet-5-5
+collected msgbatch_01QA5awYraQjFDFvZmPhxPXf model=claude-sonnet-5-5
+collected msgbatch_01Ubpbar4XNVYGQvpyaFeNNt model=claude-sonnet-5-5
+  msgbatch_01TbtviP2VDLiKBJ5RZ3gUPF in_progress processing=250 done=0
+collected msgbatch_01TbtviP2VDLiKBJ5RZ3gUPF model=claude-sonnet-5-5
+collected msgbatch_01XDNdCdEGNBE1Ame8bFUNmc model=claude-sonnet-5-5
+collected msgbatch_0121Akcc4kzpzBCyowUvyn7o model=claude-opus-5-5
+DONE coded=9296 failed=89 {'refusal:cyber': 88, 'missing_from_answer': 1} actual cost=$36.28

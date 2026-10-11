@@ -1,0 +1,672 @@
+[
+ {
+  "file": "a9dd3e622b37",
+  "rules": [
+   {
+    "habit": "DESTRUCTIVE",
+    "quote": "**Still confirm before destructive/irreversible ops:**",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Every feature MUST include integration tests in the same commit. A feature is not done until it is tested.**",
+    "label": ""
+   },
+   {
+    "habit": "LAZY",
+    "quote": "Do NOT defer test writing to a follow-up",
+    "label": ""
+   },
+   {
+    "habit": "OTHER",
+    "quote": "**NEVER include time estimates** in any documentation or planning:",
+    "label": "adds time estimates to plans"
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "Ask user if uncertain about approach",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "2b0a026ea450",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "Start work with a new branch created from a clean, updated main branch. Do not create files before creating a new branch.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Before opening a PR, run all CI steps (testing, linting, type checks, etc) locally",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "Before opening a PR, scan through README.md to make sure it's still valid (nothing it says has drifted from what the application does)",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "Update documentation (README.md) after new features are validated",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "**Read the SQL before treating a \"design question\" as open.**",
+    "label": ""
+   },
+   {
+    "habit": "DESTRUCTIVE",
+    "quote": "**Never `git stash` to get a baseline mid-change.**",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "If the same sub-problem fails twice in a row, stop and check in before attempting a third approach.",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "if you cannot point to a specific log line, error message, or user-confirmed observation that proves X is broken, do not fix X. Ask instead.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "445af175b1ee",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "All changes must pass `npm test` before being considered complete.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "All changes must pass `npm run build` before being considered complete.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "**Follow the existing patterns** - Look at existing tools for consistent structure",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "aad3c3fb544e",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "`transport_study/modules/profile_trajectory/`, `transport_study/trajectory_optimization/` - OUT OF SCOPE, do not extend",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "e5c4437f93b3",
+  "rules": [
+   {
+    "habit": "FORGETS",
+    "quote": "**Все решения записывать сразу** в нужный файл",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "b4da13275f68",
+  "rules": [
+   {
+    "habit": "HALLUCINATE",
+    "quote": "**Authenticity**: Never invent facts; resumes must be interview-true",
+    "label": ""
+   },
+   {
+    "habit": "AI_STYLE",
+    "quote": "Plain strong verbs (Led, Built, Wrote, Cut); ban AI openers (spearheaded, leveraged, orchestrated, …)",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "ee6f02af8ae0",
+  "rules": [
+   {
+    "habit": "SECRETS",
+    "quote": "**NEVER commit .env**",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "NEVER commit tokens/keys/secrets to git.",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "If something goes sideways, STOP and re-plan immediately - don't keep pushing",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "**Verify Plans:** Check in before starting implementation",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "After ANY correction from the user: update `tasks/lessons.md` with the pattern",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Never mark a task complete without proving it works",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Skip this for simple, obvious fixes - don't over-engineer",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "**Minimal Impact:** Changes should only touch what's necessary. Avoid introducing bugs.",
+    "label": ""
+   },
+   {
+    "habit": "OTHER",
+    "quote": "When given a bug report: just fix it. Don't ask for hand-holding",
+    "label": "asks for unnecessary hand-holding"
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "**No Laziness:** Find root causes. No temporary fixes. Senior developer standards.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "NEVER use `git add -A` - always `git add <specific files>` and review staged files",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "1f93db559780",
+  "rules": [
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "NEVER execute offensive security tools without explicit written authorization",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "26860d9c7b7e",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "Never add any AI attribution to commits or PRs",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "60fb0810cb6f",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Always run `cargo clippy` before committing and fix all warnings**",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Run `cargo test` to verify changes",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "b3d35c4fda8d",
+  "rules": [
+   {
+    "habit": "FORGETS",
+    "quote": "You should **always** update CLAUDE.md whenever you make changes to the codebase.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "73c81e5517bd",
+  "rules": [
+   {
+    "habit": "FORGETS",
+    "quote": "Update this CLAUDE.MD when adding new features or changing architecture",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Test locally before committing",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "7d83660edeca",
+  "rules": [
+   {
+    "habit": "GIT",
+    "quote": "Never attempt to modify files while on the main branch",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "NEVER include \"Co-Authored-By: Claude\"",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "Context files MUST be updated before committing changes",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "ALWAYS refer to the appropriate guide for detailed instructions rather than inventing your own approach.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "b0809ade7533",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Instruction files and style guides are protected governance files. Do not create, edit, delete, rename, or otherwise change `.github/copilot-instructions.md`",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "If a style-guide update appears warranted but has not been explicitly authorized, propose it separately and wait for approval before editing protected instruction files.",
+    "label": ""
+   },
+   {
+    "habit": "SECRETS",
+    "quote": "No secrets in code or repo; never hardcode API keys, tokens, credentials, or connection strings.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "Do not push code when pre-commit or required validation checks are failing; fix issues and re-run until the checks pass.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "the agent **MUST NOT** force-push or rewrite history on the PR head branch.",
+    "label": ""
+   },
+   {
+    "habit": "FLATTERY",
+    "quote": "**Validate the concern.** Determine whether the reviewer's feedback identifies a genuine gap, bug, style violation, or improvement opportunity.",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "**Read the full applicable style guide(s) before answering**",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "3bc3c2cdbad2",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "`canalisation.html` is a **build artifact** — never edit it.",
+    "label": ""
+   },
+   {
+    "habit": "TEST_GAMING",
+    "quote": "**Do not lower a tolerance to make this file pass**",
+    "label": ""
+   },
+   {
+    "habit": "TEST_GAMING",
+    "quote": "**Do not \"fix\" it by raising its threshold**",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "`main` is protected and is never committed to directly.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "If editing by script, assert the anchor exists, and write the file only after all edits succeed.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**And do not trust that the field is right just because its own harness is green.**",
+    "label": ""
+   },
+   {
+    "habit": "FLATTERY",
+    "quote": "**Report negative results honestly.**",
+    "label": ""
+   },
+   {
+    "habit": "HALLUCINATE",
+    "quote": "**Look up the real number before choosing one.**",
+    "label": ""
+   },
+   {
+    "habit": "FAKE",
+    "quote": "**Never fake it to make it look better.**",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "3b7a0627198d",
+  "rules": [
+   {
+    "habit": "WORKAROUND",
+    "quote": "**Enterprise-grade, no band-aids AND no over-engineering.** Fix root causes; stop where marginal value < marginal risk.",
+    "label": ""
+   },
+   {
+    "habit": "HALLUCINATE",
+    "quote": "**Zero speculation.** State only what's verified at HEAD; mark unverified explicitly.",
+    "label": ""
+   },
+   {
+    "habit": "OTHER",
+    "quote": "**Full autonomous authority on technical scope.** `AskUserQuestion` reserved for product scope/priority/UX — never technical.",
+    "label": "asks needless technical questions"
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Always grep gate summary line — never trust harness exit code",
+    "label": ""
+   },
+   {
+    "habit": "COMMENTS",
+    "quote": "No other comments unless WHY non-obvious.",
+    "label": ""
+   },
+   {
+    "habit": "FAKE",
+    "quote": "Aliasing one field to another to pass spec literal = semantic lie (F-006).",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "grep for callers before trusting a docstring that says \"called by X\"",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "9857c5827db3",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "PRs that add a feature but no E2E check are incomplete.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "All existing tests must pass — zero regressions",
+    "label": ""
+   },
+   {
+    "habit": "IGNORES_CODE",
+    "quote": "No new dependencies added without checking licence compatibility (must be MIT, Apache 2.0, BSD, or similar permissive)",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "**Profile before optimizing.** Don't rewrite a hot path on intuition",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "**No premature abstraction.** Three similar lines is fine.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "dc77f4ecc17f",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "When launching a new training run on a dataset that already has checkpoints, ALWAYS ask the user whether to resume from the last checkpoint or start fresh.",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "If something goes wrong, stop and re-plan immediately rather than continuing blindly.",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "After any correction from the user, update tasks/lessons.md with the relevant pattern.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "Never mark a task complete without proving it works.",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "When launching training, ALWAYS inspect the first 5-10 steps via W&B or log before walking away.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Do not over-engineer simple or obvious fixes.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Minimal Impact: Touch only what is necessary. Avoid introducing new bugs.",
+    "label": ""
+   },
+   {
+    "habit": "OTHER",
+    "quote": "When given a bug report, fix it without asking for unnecessary guidance.",
+    "label": "asks for unnecessary hand-holding"
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "No Laziness: Identify root causes. Avoid temporary fixes. Apply senior developer standards.",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "**NEVER push `private/*` branches to the public repository!**",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "9cbc076bb0cf",
+  "rules": [
+   {
+    "habit": "NO_ASK",
+    "quote": "If you don't know how to do something, don't guess — ask me to guide you.",
+    "label": ""
+   },
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "**Never execute any AWS CLI command (`aws ...`) that mutates cloud state.**",
+    "label": ""
+   },
+   {
+    "habit": "RUNS_THINGS",
+    "quote": "If an AWS CLI action appears necessary (e.g., to investigate a bug or unblock a deploy), stop and ask the user to confirm and run it manually.",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "9d45c18a3572",
+  "rules": [
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "Do not hand-edit. Source of truth is `/home/ben/Code/krill-agents/`.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "**Never** edit files outside your owned repo. Cross-repo work goes through GitHub issues.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Don't re-poll the queue — work the one issue you were handed and stop.",
+    "label": ""
+   },
+   {
+    "habit": "NO_ASK",
+    "quote": "If you can't reproduce after a real attempt, comment on the issue asking Ghost (or Ben) for the missing detail and stop. Do not fix what you cannot reproduce.",
+    "label": ""
+   },
+   {
+    "habit": "VERBOSE",
+    "quote": "You don't need to narrate every command — comments are for decisions, conclusions, and pivots, not running commentary.",
+    "label": ""
+   },
+   {
+    "habit": "TEST_GAMING",
+    "quote": "do not paper over with a token assertion",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "**Never** merge your own PR manually",
+    "label": ""
+   },
+   {
+    "habit": "GIT",
+    "quote": "**Never** merge to `main` or target `main` with a PR (except a labeled `hotfix:`).",
+    "label": ""
+   },
+   {
+    "habit": "OTHER",
+    "quote": "**Never** disappear into a long fix without surfacing decisions in the issue thread.",
+    "label": "goes silent during long work"
+   }
+  ]
+ },
+ {
+  "file": "264c9565c1bf",
+  "rules": [
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Verify (run before ANY \"done\" claim):** `RAVEN_NO_USAGE_LOG=1 npm test`",
+    "label": ""
+   },
+   {
+    "habit": "HALLUCINATE",
+    "quote": "Numbers are drift-prone — re-verify with the commands in **Verify** before relying on them.",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "**Frozen — do not touch:** stdio MCP behavior must stay byte-identical always",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "**Decisions locked (don't re-litigate):**",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "7a5e637142fd",
+  "rules": [
+   {
+    "habit": "FLATTERY",
+    "quote": "Open with the substance. Do not preface an answer with validation of me or",
+    "label": ""
+   },
+   {
+    "habit": "FLATTERY",
+    "quote": "When you disagree with me, state the disagreement and the reason. Don't ask",
+    "label": ""
+   },
+   {
+    "habit": "VERBOSE",
+    "quote": "Any sentence whose only job is to announce that the next sentence will be candid",
+    "label": ""
+   },
+   {
+    "habit": "VERBOSE",
+    "quote": "Keep it tight; the diff and the commit message already tell the story.",
+    "label": ""
+   },
+   {
+    "habit": "DESTRUCTIVE",
+    "quote": "**NEVER run `docker compose down -v` unless the user explicitly asks to wipe the database.**",
+    "label": ""
+   },
+   {
+    "habit": "UNVERIFIED",
+    "quote": "**Never report a \"clean\" build when errors remain.**",
+    "label": ""
+   },
+   {
+    "habit": "LAZY",
+    "quote": "**do not wave them away** with \"all remaining errors are pre-existing\" or \"not a regression from this work.\"",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Touch nothing beyond the minimum needed and mention what you fixed.",
+    "label": ""
+   },
+   {
+    "habit": "SCOPE",
+    "quote": "Non-trivial fixes still get recorded; they just don't get silently bundled into the current PR.",
+    "label": ""
+   },
+   {
+    "habit": "OTHER",
+    "quote": "tells the user EXACTLY where to look or what to do to verify the change is live and behaving",
+    "label": "vague verification steps for user"
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "**When it fails: do not edit an existing migration.**",
+    "label": ""
+   },
+   {
+    "habit": "OFF_LIMITS",
+    "quote": "**do not add an inline `-- noqa:` tag and do not edit the body in any way**",
+    "label": ""
+   },
+   {
+    "habit": "FORGETS",
+    "quote": "update the matching table in that document in the same change.",
+    "label": ""
+   },
+   {
+    "habit": "WORKAROUND",
+    "quote": "Do not silently fall back to generic data because a recipe fails or a login is inconvenient",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "file": "c0d1dc0bebbb",
+  "rules": [
+   {
+    "habit": "AI_STYLE",
+    "quote": "**No emojis anywhere.** Not in code, comments, docs, commit messages or any committed text.",
+    "label": ""
+   }
+  ]
+ }
+]

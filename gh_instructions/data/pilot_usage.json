@@ -1,0 +1,10 @@
+{
+ "low": {
+  "tokens_in_per_char": 0.44651873381402196,
+  "tokens_out_per_file": 86.41666666666667
+ },
+ "medium": {
+  "tokens_in_per_char": 0.44651873381402196,
+  "tokens_out_per_file": 90.20833333333333
+ }
+}

@@ -1,0 +1,26 @@
+  CLAUDE.md                size <300         github_count=80896    candidates=189
+  CLAUDE.md                size 300..1000    github_count=64768    candidates=199
+  CLAUDE.md                size 1000..3000   github_count=197632   candidates=192
+  CLAUDE.md                size 3000..8000   github_count=296960   candidates=198
+  CLAUDE.md                size 8000..20000  github_count=159744   candidates=191
+  CLAUDE.md                size >20000       github_count=70272    candidates=192
+  AGENTS.md                size <300         github_count=45568    candidates=188
+  AGENTS.md                size 300..1000    github_count=140800   candidates=189
+  AGENTS.md                size 1000..3000   github_count=307200   candidates=192
+  AGENTS.md                size 3000..8000   github_count=313344   candidates=188
+  AGENTS.md                size 8000..20000  github_count=168704   candidates=185
+  AGENTS.md                size >20000       github_count=63104    candidates=177
+  copilot-instructions.md  size <300         github_count=8800     candidates=187
+  copilot-instructions.md  size 300..1000    github_count=26560    candidates=145
+  copilot-instructions.md  size 1000..3000   github_count=42688    candidates=167
+  copilot-instructions.md  size 3000..8000   github_count=52736    candidates=175
+  copilot-instructions.md  size 8000..20000  github_count=23936    candidates=175
+  copilot-instructions.md  size >20000       github_count=6312     candidates=176
+  .cursorrules             size <300         github_count=3024     candidates=194
+  .cursorrules             size 300..1000    github_count=4576     candidates=192
+  .cursorrules             size 1000..3000   github_count=11104    candidates=181
+  .cursorrules             size 3000..8000   github_count=9536     candidates=186
+  .cursorrules             size 8000..20000  github_count=3744     candidates=176
+  .cursorrules             size >20000       github_count=1222     candidates=170
+candidates drawn: 241
+DONE fetched=241/241 by type={'CLAUDE.md': 83, 'AGENTS.md': 83, 'copilot-instructions.md': 38, '.cursorrules': 37}
