@@ -43,9 +43,13 @@ SCHEMA = {
 
 
 def client():
-    raw = open(os.path.join(HERE, "..", ".env.rtf"), encoding="utf-8", errors="replace").read()
-    key = re.search(r"ANTHROPIC_KEY\s*=\s*([^\\\s}]*)", raw).group(1).strip("\"'")
-    return anthropic.Anthropic(api_key=key, max_retries=4)
+    """The API key comes from the ANTHROPIC_API_KEY environment variable, which the SDK reads itself.
+
+    Set it before running:  export ANTHROPIC_API_KEY=your-key-here
+    """
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        sys.exit("ANTHROPIC_API_KEY is not set. Run: export ANTHROPIC_API_KEY=your-key-here")
+    return anthropic.Anthropic(max_retries=4)
 
 
 # Fenced blocks tagged with a programming, shell or config language are samples, not conduct

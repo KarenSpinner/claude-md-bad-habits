@@ -160,7 +160,11 @@ Three things are not in the repository. The downloaded file texts (`c10k_files.j
 
 ## To rerun
 
-You need Python 3.12, the `gh` CLI logged in to GitHub, and the `anthropic` package in a virtual environment one level up from `gh_instructions/`. The coding script reads an Anthropic key from a file named `.env.rtf` in that same parent directory, in the form `ANTHROPIC_KEY=...`. Edit the `client()` function in `code_habits.py` to read the key from wherever you keep it.
+You need Python 3.12, the `gh` CLI logged in to GitHub, and the `anthropic` package. The commands below assume a virtual environment one level up from `gh_instructions/`. The coding script takes the API key from the `ANTHROPIC_API_KEY` environment variable and stops with a message if it is not set.
+
+```
+export ANTHROPIC_API_KEY=your-key-here
+```
 
 From `gh_instructions/`:
 
@@ -198,7 +202,7 @@ A fresh run will not reproduce these numbers. GitHub's index changes daily, the 
 
 - **A model did the coding, with a model as the check.** No human coded a comparison set. The two-model agreement is good on whether a file has rules at all and on the common habits, and weaker on rarer habits and on the pointed-or-routine call.
 - **The counts are floors.** The rubric says to leave out any line that could be a project convention rather than a conduct rule, quotes are limited to one line, and the second coder found more rules than the first.
-- **The sample is of files GitHub search can see.** GitHub indexes the default branch of public repositories that meet its activity thresholds. Private repositories and local CLAUDE.md files that never get committed are outside the study.
+- **The sample is of files GitHub's code search can see.** The search API covers only the default branch of each repository and only files under 384 KB, and GitHub says very large repositories may not be indexed. Private repositories and local CLAUDE.md files that never get committed are outside the study.
 - **Counts are per repository, not per developer.** One person with forty repositories and the same template in each counts forty times. The `copies` column lets you count distinct texts instead.
 - **Ten files are missing** because the coder refused them as cyber-related content.
 - **The habit codes are one way to carve this up.** Rules were forced into a single best code, so a rule that guards against two habits appears under one.
